@@ -1,0 +1,26 @@
+body{
+     background-color: #000000!important;
+}
+
+#carrousel img{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100%;
+     position: relative;
+}
+
+.line_sub{
+  color: white;  
+}
+
+.navbar{
+     background-color:transparent;
+     position: absolute;
+     width: 100vw;
+     z-index: 1;    
+}
+
+.fondocolor{
+     background-color: aqua;
+}
