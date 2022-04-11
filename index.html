@@ -7,10 +7,11 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Viajes Chile</title>
 
-
+     <!--link estilos-->
      <link href="assets/style/style.css" rel="stylesheet">
 
 
+     <!--link font awesone-->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
           integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -24,6 +25,10 @@
 </head>
 
 <body>
+
+
+     
+     <!--fusion de navbar y carousel-->
      <header id="encabezado">
           <div class="container">
                <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top px-5">
@@ -76,8 +81,9 @@
      </header>
 
  
-
-     <section id="quienesomos" class=" d-none d-sm-block py-5">
+     
+     <!--texto con icono de fontawesone-->
+     <section id="quienesomos" class="py-5">
 
           <div class="container pt-4 text-center">
 
@@ -138,6 +144,9 @@
           </div>
 
      </section>
+
+
+     <!--seccion hecha con img card-->
 
 
      <section id="destacados" class=" d-none d-sm-block py-5">
@@ -223,44 +232,66 @@
 
      </section>
 
-<style>
-          div{
-               margin: 1px solid green;
-          }
 
-</style>
+     
+     <!--formulario contacto-->
 
-
-     <form id="contacto" class=" d-none d-sm-block py-5">
+     <form id="contacto" class="py-5">
 
           <div class="container pt-4 text-center">
               <h1 class="fw-bold text-uppercase text-white">contacto</h1>
               <hr class="line_sub mx-auto w-75">
               <div class="row">
 
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="text-white text-start" >Nombre</label>
+                  <div class="mb-3 text-start">
+                    <label for="exampleFormControlInput1" class="text-white" >Nombre</label>
                     <input type="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
                   </div>
                  
-                  <div class="mb-3">
+                  <div class="mb-3 text-start">
                     <label for="exampleFormControlInput1" class="text-start text-white">Asunto</label>
                     <input type="Nombre" class="form-control" id="exampleFormControlInput1" placeholder="">
                   </div>
 
-                  <div class="mb-3">
+                  <div class="mb-3 text-start">
                     <label for="exampleFormControlTextarea1" class="text-start text-white">Mensaje</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                   </div>
 
+                  <div class="mb-3 text-start "></div>
+                         <button type="button" class="btn ms-3 btn-info">Enviar</button>
+              </div>      
               </div>
           </div>
 
      </form>
 
 
+     <!--pie de pagina -->
 
+<footer id="piepag" class=" text-center">
 
+     <div class="container-fluid pt-4 fondocolor">
+          <div class="row ">
+   
+               <div class="col-12 col-sm-6 my-4" >
+                    <h2 class="fw-bold text-uppercase text-white">Viajes Chile</h1>
+
+               </div>
+                    <div class="col-12 col-sm-6 my-4" >
+                    <i class="fa-brands fa-github-square fa-3x text-white"></i>
+                    <i class="fa-brands fa-linkedin fa-3x text-white"></i>
+                    <i class="fa-brands fa-linkedin fa-3x text-white"></i>
+                    <i class="fa-brands fa-facebook-square fa-3x text-white"></i>
+               </div>
+               
+  
+
+          </div>
+     </div>
+     
+     
+</footer>
 
 
 
