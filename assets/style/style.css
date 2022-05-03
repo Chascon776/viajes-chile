@@ -1,6 +1,8 @@
 body{
      background-color: #000000!important;
+     font-family: 'Roboto', sans-serif;
 }
+
 
 #carrousel img{
      background-repeat: no-repeat;
@@ -14,12 +16,15 @@ body{
   color: white;  
 }
 
+
 .navbar{
      background-color:transparent;
-     position: absolute;
+     color: white;
+     position:fixed;
      width: 100vw;
      z-index: 1;    
 }
+
 
 .fondocolor{
      background-color: #027777;
